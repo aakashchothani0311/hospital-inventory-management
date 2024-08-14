@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LoginHandler">
+   <children>
+      <ImageView pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../../img/login.jpg" />
+         </image>
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+      </ImageView>
+      <Pane layoutX="448.0" layoutY="251.0" opacity="0.95" prefHeight="186.0" prefWidth="293.0" style="-fx-background-color: #F5F5F5; -fx-border-color: #000000; -fx-border-width: 2;">
+         <children>
+            <Label layoutX="18.0" layoutY="30.0" text="Username:" />
+            <TextField fx:id="uname" layoutX="100.0" layoutY="26.0" style="-fx-border-color: #000000;" />
+            <Label layoutX="19.0" layoutY="72.0" text="Password:" />
+            <PasswordField fx:id="pswd" layoutX="100.0" layoutY="68.0" style="-fx-border-color: #000000;" />
+            <Button layoutX="123.0" layoutY="136.0" mnemonicParsing="false" onAction="#handleLogin" style="-fx-background-color: #E53935; -fx-border-color: #000000;" text="Login" textFill="WHITE" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
