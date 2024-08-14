@@ -3,7 +3,6 @@
 This project was built to complete the requirements of "CSYE6200 - Object Oriented Design" course which I took at Northeastern University as part of my Master's degree. The project uses Java for backend & JavaFX for the front end. MySQL database is used for storing the data.
 
 ## Setup
-
 ### Database:
 
 1. Download & install XAMPP from https://www.apachefriends.org.
@@ -15,8 +14,7 @@ This project was built to complete the requirements of "CSYE6200 - Object Orient
 7. Once the file is selected, scroll down & click the "Import" button.
 8. The database called "stock" will be created. This database will contain "item" table along with the necessary columns & rows.
 
-
-### Project:
+### Project Setup using Eclipse IDE:
 
 1. Right click the project folder from the project explorer view.
 2. Select Build Path > Configure Build Path option from the menu.
@@ -27,8 +25,7 @@ This project was built to complete the requirements of "CSYE6200 - Object Orient
 7. Now, again clicking the "Modulepath" option, select the "Add Library" button present on the right side in the dialog box.
 8. Select USer Library > Java FX > Next > Apply & Close.
 
-
---> To run the project:
+### Running the project:
 
 1. Right click the project folder from the project explorer view.
 2. Select Run As > Run Configurations....
