@@ -36,5 +36,5 @@ This project was built to complete the requirements of "CSYE6200 - Object Orient
 6. For the "Main class", use the "Search..." button & select "Main - application" and click "OK".
 7. Now, on the "Arguments" tab, un-select the selected check boxes & add "--add-modules javafx.controls,javafx.fxml" to "VM Arguments" text area.
 8. Click "Apply" & then "Run".
-9. The project should now be running and the login screen should be visible. Enter the username as "admin" & password as "Pass@123" & click "Login".
+9. The project should now be running and the login screen should be visible. Enter the username & password as set in the "Credentials.jar" file & click "Login".
 10. The home page will be visible on successful login.
