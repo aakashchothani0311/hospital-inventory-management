@@ -2,6 +2,8 @@
 
 This project was built to complete the requirements of "CSYE6200 - Object Oriented Design" course which I took at Northeastern University as part of my Master's degree. The project uses Java for backend & JavaFX for the front end. MySQL database is used for storing the data.
 
+<kbd>![hospInvMgmt](https://github.com/user-attachments/assets/da25bc97-55e5-45ec-9a2e-fdadcf610303)</kbd>
+
 ## Setup
 #### Database:
 
