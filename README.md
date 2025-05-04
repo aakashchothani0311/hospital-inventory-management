@@ -25,7 +25,7 @@ This project was built to complete the requirements of "CSYE6200 - Object Orient
 5. Navigate to the "lib" sub-folder & select "mysql-connector-j-8.3.0.jar" & "Credentials.jar" file.
 6. Click "Open" button.
 7. Now, again clicking the "Modulepath" option, select the "Add Library" button present on the right side in the dialog box.
-8. Select USer Library > Java FX > Next > Apply & Close.
+8. Select User Library > Java FX > Next > Apply & Close.
 
 #### Running the project:
 
